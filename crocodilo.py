@@ -92,10 +92,10 @@ def compare_bitmasks(mask1, mask2, ingredients_data):
 def main():
     # Carrega dados do arquivo JSON
     try:
-        with open("crocodilo_sanduiches.json", "r", encoding="utf-8") as f:
+        with open("updated_crocodilo_sanduiches.json", "r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError:
-        print("Erro: Arquivo 'crocodilo_sanduiches.json' não encontrado!")
+        print("Erro: Arquivo 'updated_crocodilo_sanduiches.json' não encontrado!")
         return
     
     if isinstance(data, dict):
@@ -104,6 +104,13 @@ def main():
     else:
         sandwiches = data
         ingredients_data = []
+
+    ingredients_list = data["ingredients"]
+
+    # Create a dictionary for easy ingredient lookup by index
+    ingredients_dict = {}
+    for ingredient in ingredients_list:
+        ingredients_dict[ingredient["index"]] = ingredient["name"]
     
     print("=" * 80)
     print("RELATÓRIO DE ANÁLISE DOS SANDUÍCHES CROCODILO")
@@ -215,17 +222,19 @@ def main():
     
     ranking_by_log_price = sorted(sandwich_bitmasks, key=lambda x: x['log_price_ratio'], reverse=True)
     
-    print(f"{'Posição':<3} {'Sanduíche':<25} {'Preço':<8} {'Peso Log':<9} {'Rácio L/P':<10}")
+    print(f"{'Posição':<3} {'Sanduíche':<21} {'Preço':<9} {'Num. Ingrdnts.'} {'Peso Log':<9} {'Rácio L/P':<10}")
     print("-" * 60)
     for i, sandwich in enumerate(ranking_by_log_price, 1):
-        print(f"{i:<3} {sandwich['name'][:24]:<25} R${sandwich['price']:<7.2f} {sandwich['weights']['logarithmic']:<9.2f} {sandwich['log_price_ratio']:<10.2f}")
+        print(f"{i:<3} {sandwich['name'][:24]:<25} R${sandwich['price']:<8.2f} {sandwich['num_ingredients']:<13} {sandwich['weights']['logarithmic']:<9.2f} {sandwich['log_price_ratio']:<10.2f}")
     
     # 3. Comparação específica entre sanduíches populares
     print("\n🔄 COMPARAÇÃO ENTRE SANDUÍCHES POPULARES")
     print("-" * 60)
     
     # Pega alguns sanduíches para comparar
-    popular_sandwiches = ["X TUDO", "CROCODILO", "HAMBURGÃO"]
+    # popular_sandwiches = ["TENTAÇÃO DA NOITE", "MEGA ESPECIAL", "X TUDO ESPECIAL", "ALLIGATOR", "X TUDO", "HAMBURGAO"]
+    popular_sandwiches = ["FRANGAO", "COLEGIUM" , "CROCODILO DANT", "X DELÍCIA"]
+
     comparison_data = {}
     
     for sandwich in sandwiches:
@@ -260,7 +269,21 @@ def main():
                 print(f"  {', '.join(comparison['only_in_second']) if comparison['only_in_second'] else 'Nenhum'}")
                 
                 print(f"Diferença de preço: R${abs(comparison_data[name1]['price'] - comparison_data[name2]['price']):.2f}")
-    
+
+    # print("\n📈 Ingredientes GERAIS")
+    # # Print each burger with its ingredients
+    # for burger in sandwiches:
+    #     print(f"\n=== {burger['name']} ===")
+    #     print(f"Number: {burger['number']}")
+    #     print(f"Price: {burger['price']}")
+    #     print("Ingredients:")
+        
+    #     for ingredient_index in burger["ingredients"]:
+    #         ingredient_name = ingredients_dict[ingredient_index]
+    #         print(f"  - {ingredient_name}")
+            
+
+
     # 4. Estatísticas gerais
     print("\n📈 ESTATÍSTICAS GERAIS")
     print("-" * 60)
