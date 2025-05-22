@@ -27,99 +27,126 @@ Posição Sanduíche                 Preço    Ingred. R$/Ingred.
 Bitmask              Valor    PesoLog  Sanduíche                 Preço    Ingred. Rank 
 --------------------------------------------------------------------------------------
 0110110010000011110  222238   26.34    CAÇADOR                   R$26.00   9       #16  
-0111100010000010110  246806   24.53    CALADA DA NOITE           R$25.00   8       #24  
-0111100010000011110  246814   26.53    LIGEIRINHO                R$28.00   9       #23  
+0111100010000010110  246806   24.53    CALADA DA NOITE           R$25.00   8       #23  
+0111100010000011110  246814   26.53    LIGEIRINHO                R$28.00   9       #22  
 0111101010000011110  250910   30.23    CROCODILO DANT            R$28.00   10      #13  
 0111111010000011110  259102   34.04    X DELÍCIA                 R$28.00   11      #3   
 1001101011000011110  316958   29.54    CALIFÓRNIA                R$29.00   10      #18  
 1010000010000011110  328734   18.70    LAÇADOR                   R$23.00   7       #26  
 1010010000000010110  335894   17.05    JACARÉ CATUPIRY           R$25.00   6       #30  
-1010110011000011110  353822   31.32    HAMBURGÃO                 R$32.00   11      #19  
+1010110011000011110  353822   29.74    HAMBURGÃO                 R$32.00   10      #25  
 1011000010000010110  361494   20.70    CHEESE EGG-BACON          R$25.00   7       #28  
 1011000010000011110  361502   22.70    COLEGIAL                  R$23.00   8       #15  
-1011010010000011110  369694   26.51    COLEGIUM                  R$27.00   9       #21  
+1011010010000011110  369694   26.51    COLEGIUM                  R$27.00   9       #20  
 1011100000000010110  376854   21.15    CANGURU                   R$28.00   7       #29  
 1011101010000011110  381982   30.31    SERENO DA MADRUGADA       R$26.00   10      #4   
 1011110000000010110  385046   24.96    JACAREZINHO               R$27.00   8       #27  
 1100111010000011110  422942   30.20    FRANGOLEX                 R$26.00   10      #5   
 1101110010000010110  451606   28.50    KI SABOR                  R$26.00   9       #17  
-1110010000000011110  466974   23.22    BOIADEIRO                 R$25.00   8       #25  
-1110100010000011110  476190   26.78    CROCODILO                 R$27.00   9       #22  
+1110010000000011110  466974   23.22    BOIADEIRO                 R$25.00   8       #24  
+1110100010000011110  476190   26.78    CROCODILO                 R$27.00   9       #21  
 1110110010000011110  484382   30.59    CHEESE BACON              R$27.00   10      #8   
-1110111010000011110  488478   35.87    X TUDO                    R$33.00   12      #11  
-1110111010000011110  488478   34.29    BEM BOLADO                R$29.00   11      #6    ⚠️ IGUAL!
+1110111010000011110  488478   34.29    BEM BOLADO                R$29.00   11      #6   
 1110111011000010110  488982   35.61    GAROTA DA NOITE           R$30.00   11      #9   
-1110111011000011110  488990   39.19    X TUDO ESPECIAL           R$35.00   13      #7   
-1110111011001111110  489086   44.59    SANDUBÃO                  R$36.00   15      #2   
 1111110010000011110  517150   34.59    FRANGAO                   R$30.00   11      #10  
-1111110011000011110  517662   37.91    TENTAÇÃO DA NOITE         R$35.00   12      #20  
+1111110011000011110  517662   37.91    TENTAÇÃO DA NOITE         R$35.00   12      #19  
+1111111010000011110  521246   38.29    X TUDO                    R$33.00   12      #11  
 1111111010010011110  521374   41.29    ALLIGATOR                 R$36.00   13      #12  
-1111111011001111110  521854   47.00    MEGA ESPECIAL             R$35.00   15      #1   
+1111111011000011110  521758   41.61    X TUDO ESPECIAL           R$35.00   13      #7   
+1111111011001111110  521854   47.00    SANDUBÃO                  R$36.00   15      #2   
+1111111011001111110  521854   47.00    MEGA ESPECIAL             R$35.00   15      #1    ⚠️ IGUAL!
 1111111011100011110  522014   44.78    GAROA DA MADRUGADA        R$39.50   14      #14  
 
 📊 RANKING - Peso Logarítmico / Preço
 ------------------------------------------------------------
-Posição Sanduíche                 Preço    Peso Log  Rácio L/P 
+Posição Sanduíche             Preço     Num. Ingrdnts. Peso Log  Rácio L/P 
 ------------------------------------------------------------
-1   MEGA ESPECIAL             R$35.00   47.00     1.34      
-2   SANDUBÃO                  R$36.00   44.59     1.24      
-3   X DELÍCIA                 R$28.00   34.04     1.22      
-4   GAROTA DA NOITE           R$30.00   35.61     1.19      
-5   BEM BOLADO                R$29.00   34.29     1.18      
-6   SERENO DA MADRUGADA       R$26.00   30.31     1.17      
-7   FRANGOLEX                 R$26.00   30.20     1.16      
-8   FRANGAO                   R$30.00   34.59     1.15      
-9   ALLIGATOR                 R$36.00   41.29     1.15      
-10  GAROA DA MADRUGADA        R$39.50   44.78     1.13      
-11  CHEESE BACON              R$27.00   30.59     1.13      
-12  X TUDO ESPECIAL           R$35.00   39.19     1.12      
-13  KI SABOR                  R$26.00   28.50     1.10      
-14  X TUDO                    R$33.00   35.87     1.09      
-15  TENTAÇÃO DA NOITE         R$35.00   37.91     1.08      
-16  CROCODILO DANT            R$28.00   30.23     1.08      
-17  CALIFÓRNIA                R$29.00   29.54     1.02      
-18  CAÇADOR                   R$26.00   26.34     1.01      
-19  CROCODILO                 R$27.00   26.78     0.99      
-20  COLEGIAL                  R$23.00   22.70     0.99      
-21  COLEGIUM                  R$27.00   26.51     0.98      
-22  CALADA DA NOITE           R$25.00   24.53     0.98      
-23  HAMBURGÃO                 R$32.00   31.32     0.98      
-24  LIGEIRINHO                R$28.00   26.53     0.95      
-25  BOIADEIRO                 R$25.00   23.22     0.93      
-26  JACAREZINHO               R$27.00   24.96     0.92      
-27  CHEESE EGG-BACON          R$25.00   20.70     0.83      
-28  LAÇADOR                   R$23.00   18.70     0.81      
-29  CANGURU                   R$28.00   21.15     0.76      
-30  JACARÉ CATUPIRY           R$25.00   17.05     0.68      
+1   MEGA ESPECIAL             R$35.00    15            47.00     1.34      
+2   SANDUBÃO                  R$36.00    15            47.00     1.31      
+3   X DELÍCIA                 R$28.00    11            34.04     1.22      
+4   X TUDO ESPECIAL           R$35.00    13            41.61     1.19      
+5   GAROTA DA NOITE           R$30.00    11            35.61     1.19      
+6   BEM BOLADO                R$29.00    11            34.29     1.18      
+7   SERENO DA MADRUGADA       R$26.00    10            30.31     1.17      
+8   FRANGOLEX                 R$26.00    10            30.20     1.16      
+9   X TUDO                    R$33.00    12            38.29     1.16      
+10  FRANGAO                   R$30.00    11            34.59     1.15      
+11  ALLIGATOR                 R$36.00    13            41.29     1.15      
+12  GAROA DA MADRUGADA        R$39.50    14            44.78     1.13      
+13  CHEESE BACON              R$27.00    10            30.59     1.13      
+14  KI SABOR                  R$26.00    9             28.50     1.10      
+15  TENTAÇÃO DA NOITE         R$35.00    12            37.91     1.08      
+16  CROCODILO DANT            R$28.00    10            30.23     1.08      
+17  CALIFÓRNIA                R$29.00    10            29.54     1.02      
+18  CAÇADOR                   R$26.00    9             26.34     1.01      
+19  CROCODILO                 R$27.00    9             26.78     0.99      
+20  COLEGIAL                  R$23.00    8             22.70     0.99      
+21  COLEGIUM                  R$27.00    9             26.51     0.98      
+22  CALADA DA NOITE           R$25.00    8             24.53     0.98      
+23  LIGEIRINHO                R$28.00    9             26.53     0.95      
+24  HAMBURGÃO                 R$32.00    10            29.74     0.93      
+25  BOIADEIRO                 R$25.00    8             23.22     0.93      
+26  JACAREZINHO               R$27.00    8             24.96     0.92      
+27  CHEESE EGG-BACON          R$25.00    7             20.70     0.83      
+28  LAÇADOR                   R$23.00    7             18.70     0.81      
+29  CANGURU                   R$28.00    7             21.15     0.76      
+30  JACARÉ CATUPIRY           R$25.00    6             17.05     0.68      
 
 🔄 COMPARAÇÃO ENTRE SANDUÍCHES POPULARES
 ------------------------------------------------------------
 
-Comparando: CROCODILO vs HAMBURGÃO
-Ingredientes em comum (8): 
-  Alface, Maionese, Milho, Batata palha, Queijo, Presunto, Bacon, Hambúrguer de 90g
-Apenas em CROCODILO (1): 
-  Frango desfiado
-Apenas em HAMBURGÃO (2): 
-  Segundo Hambúrguer de 90g, Catupiry
-Diferença de preço: R$5.00
-
-Comparando: CROCODILO vs X TUDO
+Comparando: FRANGAO vs CROCODILO DANT
 Ingredientes em comum (9): 
-  Alface, Maionese, Milho, Batata palha, Queijo, Presunto, Bacon, Frango desfiado, Hambúrguer de 90g
-Apenas em CROCODILO (0): 
+  Alface, Maionese, Milho, Batata palha, Queijo, Presunto, Ovo, Bacon, Frango desfiado
+Apenas em FRANGAO (2): 
+  Catupiry, Hambúrguer de 90g
+Apenas em CROCODILO DANT (1): 
+  Abacaxi
+Diferença de preço: R$2.00
+
+Comparando: FRANGAO vs COLEGIUM
+Ingredientes em comum (9): 
+  Alface, Maionese, Milho, Batata palha, Queijo, Catupiry, Ovo, Bacon, Hambúrguer de 90g
+Apenas em FRANGAO (2): 
+  Presunto, Frango desfiado
+Apenas em COLEGIUM (0): 
   Nenhum
-Apenas em X TUDO (2): 
-  Abacaxi, Catupiry
-Diferença de preço: R$6.00
+Diferença de preço: R$3.00
 
-Comparando: HAMBURGÃO vs X TUDO
-Ingredientes em comum (9): 
-  Alface, Maionese, Milho, Batata palha, Queijo, Catupiry, Presunto, Bacon, Hambúrguer de 90g
-Apenas em HAMBURGÃO (1): 
-  Segundo Hambúrguer de 90g
-Apenas em X TUDO (2): 
-  Abacaxi, Frango desfiado
+Comparando: FRANGAO vs X DELÍCIA
+Ingredientes em comum (10): 
+  Alface, Maionese, Milho, Batata palha, Queijo, Catupiry, Presunto, Ovo, Bacon, Frango desfiado
+Apenas em FRANGAO (1): 
+  Hambúrguer de 90g
+Apenas em X DELÍCIA (1): 
+  Abacaxi
+Diferença de preço: R$2.00
+
+Comparando: CROCODILO DANT vs COLEGIUM
+Ingredientes em comum (7): 
+  Alface, Maionese, Milho, Batata palha, Queijo, Ovo, Bacon
+Apenas em CROCODILO DANT (3): 
+  Abacaxi, Presunto, Frango desfiado
+Apenas em COLEGIUM (2): 
+  Catupiry, Hambúrguer de 90g
+Diferença de preço: R$1.00
+
+Comparando: CROCODILO DANT vs X DELÍCIA
+Ingredientes em comum (10): 
+  Alface, Maionese, Milho, Batata palha, Queijo, Abacaxi, Presunto, Ovo, Bacon, Frango desfiado
+Apenas em CROCODILO DANT (0): 
+  Nenhum
+Apenas em X DELÍCIA (1): 
+  Catupiry
+Diferença de preço: R$0.00
+
+Comparando: COLEGIUM vs X DELÍCIA
+Ingredientes em comum (8): 
+  Alface, Maionese, Milho, Batata palha, Queijo, Catupiry, Ovo, Bacon
+Apenas em COLEGIUM (1): 
+  Hambúrguer de 90g
+Apenas em X DELÍCIA (3): 
+  Abacaxi, Presunto, Frango desfiado
 Diferença de preço: R$1.00
 
 📈 ESTATÍSTICAS GERAIS
