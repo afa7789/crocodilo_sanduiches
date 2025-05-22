@@ -1,0 +1,82 @@
+{
+    "ingredients": [
+          {
+      "index": 3,
+      "name": "Tomate"
+    },
+    {
+      "index": 2,
+      "name": "Alface"
+    },
+        {
+      "index": 15,
+      "name": "Maionese"
+    },
+
+        {
+      "index": 11,
+      "name": "Milho"
+    },
+    {
+      "index": 5,
+      "name": "Batata palha"
+    },
+    {
+      "index": 8,
+      "name": "Segundo Queijo"
+    },
+    {
+      "index": 10,
+      "name": "Segundo Presunto"
+    },
+    {
+      "index": 17,
+      "name": "Segundo Ovo"
+    },
+    {
+        "index":18,
+        "name": "Terceiro Hambúrguer de 90g"
+    },
+    {
+        "index": 1,
+        "name": "Segundo Hambúrguer de 90g"
+    },
+    {
+      "index": 7,
+      "name": "Queijo"
+    },
+    {
+      "index": 14,
+      "name": "Passas"
+    },
+    {
+      "index": 13,
+      "name": "Abacaxi"
+    },
+    {
+      "index": 12,
+      "name": "Catupiry"
+    },
+    {
+      "index": 9,
+      "name": "Presunto"
+    },
+    {
+      "index": 16,
+      "name": "Ovo"
+    },
+
+    {
+      "index": 4,
+      "name": "Bacon"
+    },
+    {
+      "index": 6,
+      "name": "Frango desfiado"
+    },
+    {
+      "index": 0,
+      "name": "Hambúrguer de 90g"
+    }
+  ]
+}
