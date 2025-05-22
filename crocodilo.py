@@ -202,23 +202,23 @@ def main():
         
         previous_mask = sandwich['mask']
     
-    # Adiciona análise dos pesos
-    print("\n🔬 ANÁLISE DE PESOS DOS INGREDIENTES")
-    print("-" * 50)
-    print("💡 Peso Logarítmico: Normaliza o crescimento exponencial do bitmask")
-    print("   - Ingredientes com índice maior = mais 'especiais'")
-    print("   - log₂(ingrediente + 1) suaviza diferenças extremas")
-    print()
+    # 2B. Segundo ranking: Peso Logarítmico dividido pelo Preço
+    print("\n📊 RANKING - Peso Logarítmico / Preço")
+    print("-" * 60)
     
-    # Top 5 por peso logarítmico
-    by_log_weight = sorted(sandwich_bitmasks, key=lambda x: x['weights']['logarithmic'], reverse=True)
-    print("🏆 TOP 5 - Ingredientes mais 'especiais' (Peso Logarítmico):")
-    for i, sandwich in enumerate(by_log_weight[:5], 1):
-        weights = sandwich['weights']
-        print(f"{i}. {sandwich['name'][:30]}: "
-              f"Peso={weights['logarithmic']:.2f}, "
-              f"Soma={weights['simple']:.0f}, "
-              f"Raridade={weights['rarity']:.2f}")
+    # Calcula o ratio logarítmico dividido pelo preço para cada sanduíche
+    for sandwich in sandwich_bitmasks:
+        if sandwich['price'] > 0:
+            sandwich['log_price_ratio'] = sandwich['weights']['logarithmic'] / sandwich['price']
+        else:
+            sandwich['log_price_ratio'] = 0  # Ou use float('inf') se preferir
+    
+    ranking_by_log_price = sorted(sandwich_bitmasks, key=lambda x: x['log_price_ratio'], reverse=True)
+    
+    print(f"{'Posição':<3} {'Sanduíche':<25} {'Preço':<8} {'Peso Log':<9} {'Rácio L/P':<10}")
+    print("-" * 60)
+    for i, sandwich in enumerate(ranking_by_log_price, 1):
+        print(f"{i:<3} {sandwich['name'][:24]:<25} R${sandwich['price']:<7.2f} {sandwich['weights']['logarithmic']:<9.2f} {sandwich['log_price_ratio']:<10.2f}")
     
     # 3. Comparação específica entre sanduíches populares
     print("\n🔄 COMPARAÇÃO ENTRE SANDUÍCHES POPULARES")
