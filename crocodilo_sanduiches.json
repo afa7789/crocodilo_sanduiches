@@ -1,0 +1,262 @@
+{
+  "burgers": [
+    {
+      "number": 1,
+      "name": "CHEESE EGG-BACON",
+      "price": 25,
+      "ingredients": [0, 4, 7, 5, 16, 2, 15]
+    },
+    {
+      "number": 3,
+      "name": "LAÇADOR",
+      "price": 23,
+      "ingredients": [0, 4, 7, 5, 11, 2, 15]
+    },
+    {
+      "number": 4,
+      "name": "COLEGIAL",
+        "price": 23,
+      "ingredients": [0, 4, 7, 5, 11, 16, 2, 15]
+    },
+    {
+      "number": 4,
+      "name": "CAÇADOR",
+      "price": 26,
+      "ingredients": [6, 4, 7, 9, 5, 12,11, 2, 15]
+    },
+    {
+      "number": 6,
+      "name": "CALADA DA NOITE",
+        "price": 25,
+      "ingredients": [6, 4, 7, 9, 5, 16, 2, 15]
+    },
+    {
+      "number": 7,
+      "name": "FRANGOLEX",
+      "price": 26,
+      "ingredients": [0,6,12,7,9,5,13,11,2,15]
+    },
+    {
+      "number": 8,
+      "name": "JACARÉ CATUPIRY",
+      "price": 25,
+      "ingredients": [0,12,4,5,2,15]
+    },
+    {
+      "number": 9,
+      "name": "JACAREZINHO",
+      "price": 27,
+      "ingredients": [0,12,4,16,9,5,2,15]
+    },
+    {
+      "number": 10,
+      "name": "FRANGAO",
+      "price": 30,
+      "ingredients": [0,6,4,7,16,12,11,9,5,2,15]
+    },
+    {
+      "number": 11,
+      "name": "CROCODILO",
+      "price": 27,
+      "ingredients": [0,6,4,7,9,11,5,2,15]
+    },
+    {
+      "number": 12,
+      "name": "CROCODILO DANT",
+      "price": 28,
+      "ingredients": [6,4,7,16,9,13,11,5,2,15]
+    },
+    {
+      "number": 13,
+      "name": "CANGURU",
+      "price": 28,
+      "ingredients": [0,9,4,16,5,2,15]
+    },
+    {
+      "number": 14,
+      "name": "LIGEIRINHO",
+      "price": "R$28,00",
+      "ingredients": [6,7,9,4,16,11,5,2,15]
+    },
+    {
+      "number": 15,
+      "name": "COLEGIUM",
+      "price": 27,
+      "ingredients": [0,4,7,12,16,11,5,2,15]
+    },
+    {
+      "number": 16,
+      "name": "X DELÍCIA",
+      "price": 28,
+      "ingredients": [6,7,9,4,12,16,11,13,5,2,15]
+    },
+    {
+      "number": 17,
+      "name": "KI SABOR",
+      "price": 26,
+      "ingredients": [0,6,7,16,12,9,5,2,15]
+    },
+    {
+      "number": 18,
+      "name": "HAMBURGÃO",
+      "price": 32,
+      "ingredients": [0,1,4,7,12,15,9,11,5,2,15]
+    },
+    {
+      "number": 19,
+      "name": "X TUDO",
+      "price": 33,
+      "ingredients": [0,6,4,7,9,11,15,12,13,5,2,15]
+    },
+    {
+      "number": 20,
+      "name": "X TUDO ESPECIAL",
+      "price": 35,
+      "ingredients": [0,1,6,4,7,9,11,15,12,13,5,2,15]
+    },
+    {
+      "number": 21,
+      "name": "SANDUBÃO",
+      "price": 36,
+      "ingredients": [0,1,6,4,7,8,9,10,11,15,12,13,5,2,15]
+    },
+    {
+      "number": 22,
+      "name": "MEGA ESPECIAL",
+      "price": 35,
+      "ingredients": [0,1,4,16,6,12,11,9,10,7,8,13,2,5,15]
+    },
+    {
+      "number": 23,
+      "name": "ALLIGATOR",
+      "price": 36,
+      "ingredients": [0,4,16,17,12,6,7,9,11,13,5,2,15]
+    },
+    {
+      "number": 24,
+      "name": "BEM BOLADO",
+      "price": 29,
+      "ingredients": [0,4,7,6,12,9,13,11,5,2,15]
+    },
+    {
+      "number": 25,
+      "name": "GAROTA DA NOITE",
+      "price": 30,
+      "ingredients": [0,1,4,7,6,12,9,13,5,2,15]
+    },
+    {
+      "number": 26,
+      "name": "GAROA DA MADRUGADA",
+      "price": 39.5,
+      "ingredients": [0,1,18,4,16,7,6,12,11,9,13,5,2,15]
+    },
+    {
+      "number": 27,
+      "name": "CALIFÓRNIA",
+      "price": 29,
+      "ingredients": [0,1,7,16,13,9,11,5,2,15 ]
+    },
+    {
+      "number": 28,
+      "name": "BOIADEIRO",
+      "price": 25,
+      "ingredients": [0,6,12,4,11,5,2,15]
+    },
+    {
+      "number": 31,
+      "name": "SERENO DA MADRUGADA",
+      "price": 26,
+      "ingredients": [0,4,16,7,9,13,11,5,2,15]
+    },
+    {
+      "number": 32,
+      "name": "TENTAÇÃO DA NOITE",
+      "price": 35,
+      "ingredients": [0,1,4,7,16,6,12,9,11,5,2,15]
+    },
+    {
+      "number": 33,
+      "name": "CHEESE BACON",
+      "price": 27,
+      "ingredients": [0,4,6,12,7,9,11,5,2,15]
+    }
+  ],
+  "ingredients": [
+    {
+      "index": 0,
+      "name": "Hambúrguer de 90g"
+    },
+    {
+      "index": 1,
+      "name": "Segundo Hambúrguer de 90g"
+    },
+    {
+      "index": 2,
+      "name": "Alface"
+    },
+    {
+      "index": 3,
+      "name": "Tomate"
+    },
+    {
+      "index": 4,
+      "name": "Bacon"
+    },
+    {
+      "index": 5,
+      "name": "Batata palha"
+    },
+    {
+      "index": 6,
+      "name": "Frango desfiado"
+    },
+    {
+      "index": 7,
+      "name": "Queijo"
+    },
+    {
+      "index": 8,
+      "name": "Segundo Queijo"
+    },
+    {
+      "index": 9,
+      "name": "Presunto"
+    },
+    {
+      "index": 10,
+      "name": "Segundo Presunto"
+    },
+    {
+      "index": 11,
+      "name": "Milho"
+    },
+    {
+      "index": 12,
+      "name": "Catupiry"
+    },
+    {
+      "index": 13,
+      "name": "Abacaxi"
+    },
+    {
+      "index": 14,
+      "name": "Passas"
+    },
+    {
+      "index": 15,
+      "name": "Maionese"
+    },
+    {
+      "index": 16,
+      "name": "Ovo"
+    },
+    {
+      "index": 17,
+      "name": "Segundo Ovo"
+    },
+    {
+        "index":18,
+        "name": "Terceiro Hambúrguer de 90g"
+    }
+  ]
+}

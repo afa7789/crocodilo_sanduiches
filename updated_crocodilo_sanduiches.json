@@ -1,0 +1,595 @@
+{
+  "burgers": [
+    {
+      "number": 1,
+      "name": "CHEESE EGG-BACON",
+      "price": "R$25,00",
+      "ingredients": [
+        16,
+        12,
+        5,
+        4,
+        14,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 3,
+      "name": "LAÇADOR",
+      "price": "R$23,00",
+      "ingredients": [
+        16,
+        12,
+        5,
+        4,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 4,
+      "name": "COLEGIAL",
+      "price": "R$23,00",
+      "ingredients": [
+        16,
+        12,
+        5,
+        4,
+        3,
+        14,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 4,
+      "name": "CAÇADOR",
+      "price": "R$26,00",
+      "ingredients": [
+        13,
+        12,
+        5,
+        9,
+        4,
+        8,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 6,
+      "name": "CALADA DA NOITE",
+      "price": "R$25,00",
+      "ingredients": [
+        13,
+        12,
+        5,
+        9,
+        4,
+        14,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 7,
+      "name": "FRANGOLEX",
+      "price": "R$26,00",
+      "ingredients": [
+        16,
+        13,
+        8,
+        5,
+        9,
+        4,
+        11,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 8,
+      "name": "JACARÉ CATUPIRY",
+      "price": "R$25,00",
+      "ingredients": [
+        16,
+        8,
+        12,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 9,
+      "name": "JACAREZINHO",
+      "price": "R$27,00",
+      "ingredients": [
+        16,
+        8,
+        12,
+        14,
+        9,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 10,
+      "name": "FRANGAO",
+      "price": "R$30,00",
+      "ingredients": [
+        16,
+        13,
+        12,
+        5,
+        14,
+        8,
+        3,
+        9,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 11,
+      "name": "CROCODILO",
+      "price": "R$27,00",
+      "ingredients": [
+        16,
+        13,
+        12,
+        5,
+        9,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 12,
+      "name": "CROCODILO DANT",
+      "price": "R$28,00",
+      "ingredients": [
+        13,
+        12,
+        5,
+        14,
+        9,
+        11,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 13,
+      "name": "CANGURU",
+      "price": "R$28,00",
+      "ingredients": [
+        16,
+        9,
+        12,
+        14,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 14,
+      "name": "LIGEIRINHO",
+      "price": "R$28,00",
+      "ingredients": [
+        13,
+        5,
+        9,
+        12,
+        14,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 15,
+      "name": "COLEGIUM",
+      "price": "R$27,00",
+      "ingredients": [
+        16,
+        12,
+        5,
+        8,
+        14,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 16,
+      "name": "X DELÍCIA",
+      "price": "R$28,00",
+      "ingredients": [
+        13,
+        5,
+        9,
+        12,
+        8,
+        14,
+        3,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 17,
+      "name": "KI SABOR",
+      "price": "R$26,00",
+      "ingredients": [
+        16,
+        13,
+        5,
+        14,
+        8,
+        9,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 18,
+      "name": "HAMBURGÃO",
+      "price": "R$32,00",
+      "ingredients": [
+        16,
+        17,
+        12,
+        5,
+        8,
+        1,
+        9,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 19,
+      "name": "X TUDO",
+      "price": "R$33,00",
+      "ingredients": [
+        16,
+        13,
+        12,
+        5,
+        9,
+        3,
+        1,
+        8,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 20,
+      "name": "X TUDO ESPECIAL",
+      "price": "R$35,00",
+      "ingredients": [
+        16,
+        17,
+        13,
+        12,
+        5,
+        9,
+        3,
+        1,
+        8,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 21,
+      "name": "SANDUBÃO",
+      "price": "R$36,00",
+      "ingredients": [
+        16,
+        17,
+        13,
+        12,
+        5,
+        6,
+        9,
+        10,
+        3,
+        1,
+        8,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 22,
+      "name": "MEGA ESPECIAL",
+      "price": "R$35,00",
+      "ingredients": [
+        16,
+        17,
+        12,
+        14,
+        13,
+        8,
+        3,
+        9,
+        10,
+        5,
+        6,
+        11,
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "number": 23,
+      "name": "ALLIGATOR",
+      "price": "R$36,00",
+      "ingredients": [
+        16,
+        12,
+        14,
+        15,
+        8,
+        13,
+        5,
+        9,
+        3,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 24,
+      "name": "BEM BOLADO",
+      "price": "R$29,00",
+      "ingredients": [
+        16,
+        12,
+        5,
+        13,
+        8,
+        9,
+        11,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 25,
+      "name": "GAROTA DA NOITE",
+      "price": "R$30,00",
+      "ingredients": [
+        16,
+        17,
+        12,
+        5,
+        13,
+        8,
+        9,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 26,
+      "name": "GAROA DA MADRUGADA",
+      "price": "R$39,50",
+      "ingredients": [
+        16,
+        17,
+        18,
+        12,
+        14,
+        5,
+        13,
+        8,
+        3,
+        9,
+        11,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 27,
+      "name": "CALIFÓRNIA",
+      "price": "R$29,00",
+      "ingredients": [
+        16,
+        17,
+        5,
+        14,
+        11,
+        9,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 28,
+      "name": "BOIADEIRO",
+      "price": "R$25,00",
+      "ingredients": [
+        16,
+        13,
+        8,
+        12,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 31,
+      "name": "SERENO DA MADRUGADA",
+      "price": "R$26,00",
+      "ingredients": [
+        16,
+        12,
+        14,
+        5,
+        9,
+        11,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 32,
+      "name": "TENTAÇÃO DA NOITE",
+      "price": "R$35,00",
+      "ingredients": [
+        16,
+        17,
+        12,
+        5,
+        14,
+        13,
+        8,
+        9,
+        3,
+        4,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 33,
+      "name": "CHEESE BACON",
+      "price": "R$27,00",
+      "ingredients": [
+        16,
+        12,
+        13,
+        8,
+        5,
+        9,
+        3,
+        4,
+        0,
+        1
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "index": 0,
+      "name": "Alface"
+    },
+    {
+      "index": 1,
+      "name": "Maionese"
+    },
+    {
+      "index": 2,
+      "name": "Tomate"
+    },
+    {
+      "index": 3,
+      "name": "Milho"
+    },
+    {
+      "index": 4,
+      "name": "Batata palha"
+    },
+    {
+      "index": 5,
+      "name": "Queijo"
+    },
+    {
+      "index": 6,
+      "name": "Segundo Queijo"
+    },
+    {
+      "index": 7,
+      "name": "Passas"
+    },
+    {
+      "index": 8,
+      "name": "Catupiry"
+    },
+    {
+      "index": 9,
+      "name": "Presunto"
+    },
+    {
+      "index": 10,
+      "name": "Segundo Presunto"
+    },
+    {
+      "index": 11,
+      "name": "Abacaxi"
+    },
+    {
+      "index": 12,
+      "name": "Bacon"
+    },
+    {
+      "index": 13,
+      "name": "Frango desfiado"
+    },
+    {
+      "index": 14,
+      "name": "Ovo"
+    },
+    {
+      "index": 15,
+      "name": "Segundo Ovo"
+    },
+    {
+      "index": 16,
+      "name": "Hambúrguer de 90g"
+    },
+    {
+      "index": 17,
+      "name": "Segundo Hambúrguer de 90g"
+    },
+    {
+      "index": 18,
+      "name": "Terceiro Hambúrguer de 90g"
+    }
+  ]
+}
